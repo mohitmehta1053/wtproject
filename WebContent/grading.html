@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<!--Import materialize.css-->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		
+		<script>
+		$(document).ready(function(){
+			$('#header').load("teacher.jsp")
+		});
+		</script>
+
+</head>
+<body>
+			<!--Import jQuery before materialize.js-->
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		
+		
+		
+		<div id="header"></div>
+		
+			<div class="row">
+	    <form class="col s12">
+	    <br>
+	      <div class="row">
+	      <div class="col s12">
+					<h3 class="card-panel amber darken-1 white-text">Student Grading</h3>
+
+				</div>
+				</div>
+				<br><br>
+				<div class="input-field col s6">
+	          <input placeholder="Enter student id" id="stu_id" type="number" class="validate">
+	          <label for="stu_id">Student id</label>
+	        </div>
+	        
+	         <div class="row">
+	      <div class="col s12">
+					<h5 class="card-panel amber darken-2 white-text">Parameters Of Grading</h5>
+
+				</div>
+				</div>
+				<br><br>
+				<div class="row">
+				<div class="col s4">
+				 <label for="p1">Use of software Engineering techniques</label>
+				<input placeholder="Enter marks out of 6" id="p1" type="number" class="validate">
+	         
+				</div>
+				
+				<div class="col s4">
+				<label for="p2">Theoretical analysis of proposed problem</label>
+				<input placeholder="Enter marks out of 8" id="p2" type="number" class="validate">
+	          
+				</div>
+				
+				<div class="col s4">
+				 <label for="p3">Breadth and Depth of Literature Survey</label>
+				<input placeholder="Enter marks out of 7" id="p3" type="number" class="validate">
+	         
+				</div>
+				
+				<div class="col s4">
+				<label for="p6">Report Writing</label>
+				<input placeholder="Enter marks out of 6" id="p6" type="number" class="validate">
+	          
+				</div>
+				
+				<div class="col s4">
+				<label for="p4">Design/Methodology</label>
+				<input placeholder="Enter marks out of 8" id="p4" type="number" class="validate">
+	          
+				</div>
+				
+				<div class="col s4">
+				 <label for="p5">Presentation</label>
+				<input placeholder="Enter marks out of 5" id="p5" type="number" class="validate">
+	         
+				</div>
+				</div>
+				<div class="col s4">
+				 <label for="p7">Total Marks</label>
+				<input placeholder="Enter marks out of 40" id="p7" type="number" class="validate">
+	         
+				</div>
+				<div class="col s4">
+				 <label for="p8">Total Average</label>
+				<input placeholder="Enter marks out of 10" id="p5" type="number" class="validate">
+	         
+				</div>
+				
+				<br><br>
+				<div class="col s10">			
+			<div class="right-align" >
+		<button type="submit" id ='suggest_btn2' class='btn amber' >Submit</button>	
+			</div>
+			</div> 
+			
+			
+				</form>
+				</div>
+		
+
+</body>
+</html>

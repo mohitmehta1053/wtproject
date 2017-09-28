@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+body{
+    background-color: #989898;
+}
+.home-page{
+	width:100%;
+	margin-up:20%;
+        margin-left: 15%;
+	max-width:800px;
+	min-height:500px;
+	position:relative;
+}
+.home-wrap{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background-color: #DCDCDC;
+          border: 2px solid #101010;
+}
+
+div.tab{
+  
+    overflow: hidden;/*if any overflow of content takes place it is hidden */
+    border: 2px solid #101010;
+    background-color:  inherit;
+    width: 100%;
+        }
+        
+   div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 17px 17px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+/* Style the tab content */
+.tab_content{
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding: 6px 12px;
+    border-top: none;
+}
+.new_project{
+     background-color: #333366; /*  */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+.flexslider {
+	width: 600px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+	
+}
+.flex_wrap
+{
+	padding-top: 50px;
+	
+}

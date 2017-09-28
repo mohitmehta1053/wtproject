@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<!--Import materialize.css-->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		
+		<script>
+		$(document).ready(function(){
+			$('#header').load("student.jsp")
+		});
+		</script>
+</head>
+<body>
+<!--Import jQuery before materialize.js-->
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		
+		
+		
+		<div id="header"></div>
+			
+		<div class="row">
+	    <form class="col s12">
+	    <br>
+	      <div class="row">
+	      <div class="col s12">
+					<h3 class="card-panel purple darken-4 white-text">Make Project</h3>
+
+				</div>
+				</div>
+				<div class="row">
+				<div class=" input-field col s6">
+					 <input
+						 id="aim" type="text" class="validate ">
+					<label for="aim" > Aim</label>
+				</div>
+				<!-- Dropdown Trigger -->
+	          <div class="input-field col s3 right-align">
+	          <br>
+  <a class='dropdown-button btn purple ' href='#' data-activates='dropdown1'>Select week</a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#">week 1</a></li>
+    <li><a href="#">week 2</a></li>
+      <li><a href="#">week 3</a></li>
+    <li><a href="#">week 4</a></li>
+    <li class="divider"></li>
+     <li><a href="#">week 5</a></li>
+    <li><a href="#">week 6</a></li> 
+     <li><a href="#">week 7</a></li>
+    <li><a href="#">week 8</a></li>
+  </ul>
+  </div>
+      
+				</div>
+				
+				<div class="row">
+        <div class="input-field col s6">
+          <textarea id="description"   class="materialize-textarea"></textarea>
+          <label for="description">Description</label>
+        </div>
+        </div>
+      		<div class="row">
+      	  <div class="input-field col s3">
+	          <input  id="mem_id1" type="number" class="validate">
+	          <label for="mem_id1">Member_id1</label>
+	        </div>
+	        
+	        <div class="input-field col s3">
+	          <input  id="mem_id2" type="number" class="validate">
+	          <label for="mem_id2">Member_id2</label>
+	        </div>
+	        
+	        <div class="input-field col s3">
+	          <input  id="mem_id2" type="number" class="validate">
+	          <label for="mem_id2">Member_id2</label>
+	        </div>
+      	</div>
+      	
+      	 	<div class="col s4">
+			<div class="right-align" >
+			<button id="Save" class="btn btn-large purple " type="submit">Submit</button>
+			</div>
+			</div>
+			
+			<div class="col s4">
+			<div class="right-align" >
+			<button id="upload" class="btn btn-large  purple " >Upload</button>
+			</div>
+			</div>
+			
+			
+			
+			
+				</form>
+				</div>
+
+</body>
+</html>
